@@ -25,6 +25,7 @@ After the `package-lambda-py.sh` has been run, you will then need to upload the 
 
 ### Setting Lambda environment variables
 Next, you will need to set [environment variables for the lambda function](https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html).
-```ALERT_METHOD``` = ```SNS``` or ```PAGERDUTY```
-```SNS_ARN``` = ```AWS_SNS_ARN_GOES_HERE``` (only set if SNS was selected)
-```INTEGRATION_KEY``` = ```PAGERDUTY_INTEGRATION_KEY_GOES_HERE``` (only set if PAGERDUTY was selected)
+
+- ```ALERT_METHOD``` = ```SNS``` or ```PAGERDUTY```
+- ```SNS_ARN``` = ```AWS_SNS_ARN_GOES_HERE``` (only set if SNS was selected)
+- ```INTEGRATION_KEY``` = ```PAGERDUTY_INTEGRATION_KEY_GOES_HERE``` (only set if PAGERDUTY was selected)
